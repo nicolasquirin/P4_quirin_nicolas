@@ -6,11 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
+}
+button.aria-label {
+  background-color: transparent;
+  border: none;
 }
 
 a:hover {
@@ -18,14 +20,7 @@ a:hover {
   cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
+
 
 .bloc {
   width: 100%;
@@ -458,10 +453,6 @@ nav .caret {
 .btn-d:focus {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-  outline: none !important;
 }
 
 .btn-rd {
