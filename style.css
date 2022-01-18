@@ -20,8 +20,6 @@ a:hover {
   cursor: pointer;
 }
 
-
-
 .bloc {
   width: 100%;
   clear: both;
@@ -95,7 +93,7 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(7, 7, 7);
 }
 
 .d-bloc button:hover {
@@ -644,7 +642,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 .container {
@@ -730,6 +728,12 @@ h4 {
 
 .white {
   color: #ffffff !important;
+}
+.black {
+  color: #000000 !important;
+}
+#text {
+  color: #000000;
 }
 
 .portfolio-thumb {
