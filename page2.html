@@ -35,16 +35,14 @@
             <div class="container bloc-sm">
               <nav class="navbar row">
                 <div class="navbar-header">
-                  <a
-                    aria-label="retour accueil"
-                    class="navbar-brand"
-                    href="index.html"
-                    ><img
-                      src="img/la-chouette-agence.png"
-                      alt="logo de la chouette agence"
-                      height="40"
-                  /></a>
+                  <img
+                    src="img/la-chouette-agence.png"
+                    alt="Logo de l'agence web : La chouette agence"
+                    height="40"
+                  />
                   <button
+                    aria-label="acces aux boutons: accueil et contact"
+                    tabindex="0"
                     id="nav-toggle"
                     type="button"
                     class="ui-navbar-toggle navbar-toggle"
@@ -55,6 +53,17 @@
                     ><span class="icon-bar"></span><span class="icon-bar"></span
                     ><span class="icon-bar"></span>
                   </button>
+                </div>
+                <div
+                  class="collapse navbar-collapse navbar-1 special-dropdown-nav"
+                >
+                  <ul class="site-navigation nav navbar-nav">
+                    <li>
+                      <a aria-label="" tabindex="0" href="index.html"
+                        >Accueil</a
+                      >
+                    </li>
+                  </ul>
                 </div>
               </nav>
             </div>
@@ -73,7 +82,7 @@
                 <div class="col-sm-12">
                   <div class="bg-accessible">
                     <h1
-                      aria-label=" Parlons web design !"
+                      aria-label=""
                       tabindex="0"
                       class="text-center hero-bloc-text tc-white"
                     >
@@ -82,9 +91,7 @@
                   </div>
                   <div class="bg-accessible">
                     <p
-                      aria-label=" Nous sommes ravis que vous souhaitiez collaborer avec notre
-                        agence. Parlez-nous de votre projet en complétant le formulaire
-                        ci-dessous."
+                      aria-label=""
                       tabindex="0"
                       class="text-center mg-lg tc-white tight-width-whitespace"
                     >
@@ -103,16 +110,12 @@
 
         <!-- bloc-7 -->
         <section>
+          <h2 aria-label="" tabindex="0">Coordonées personnelles :</h2>
           <div class="bloc bgc-white l-bloc" id="bloc-7">
             <div class="container bloc-lg">
               <div class="row">
                 <div class="col-sm-6">
-                  <form
-                    id="form_1"
-                    novalidate
-                    success-msg="Your message has been sent."
-                    fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-                  >
+                  <form id="form_1">
                     <div class="form-group">
                       <label for="name">Entrez votre nom :</label>
                       <input id="name" class="form-control" required />
@@ -151,13 +154,7 @@
                   </form>
                 </div>
                 <div class="col-sm-6">
-                  <p
-                    aria-label=" contact@lachouetteagence.com.
-                    2 place Sathonay 69001
-                    Lyon.
-                    Ouvert de 9h à 18h, du lundi au vendredi"
-                    tabindex="0"
-                  >
+                  <p aria-label="" tabindex="0">
                     contact@lachouetteagence.com<br />2 place Sathonay 69001
                     Lyon<br />Ouvert de 9h à 18h, du lundi au vendredi<br />
                   </p>
@@ -174,11 +171,7 @@
             <div class="container bloc-sm">
               <div class="row">
                 <div class="col-sm-12">
-                  <p
-                    aria-label=" La chouette agence - Agence web basée à Lyon."
-                    tabindex="0"
-                    class="text-center black"
-                  >
+                  <p aria-label="" tabindex="0" class="text-center black">
                     La chouette agence - Agence web basée à Lyon.<br />
                   </p>
                   <div class="row row-no-gutters social">
